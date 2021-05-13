@@ -11,9 +11,8 @@ int main() {
     cin >> l2;
     suma = l1 + l2;
     cout << "Suma obu liczb: ";
+    cout << fixed << showpoint;
     cout << setprecision(10);
-    cout << fixed;
-    cout << showpoint;
     cout << suma << endl;
     return 0;
 }
