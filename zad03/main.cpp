@@ -9,9 +9,8 @@ int main() {
     cin >> metry;
     milimetry = metry * 1000;
     cout << "Ilosc milimetrow: ";
+    cout << fixed << showpoint;
     cout << setprecision(10);
-    cout << fixed;
-    cout << showpoint;
     cout << milimetry << endl;
     return 0;
 }

@@ -1,9 +1,10 @@
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
-long long l1,l2,iloczyn,modulo;
-double iloraz;
+int modulo;
+double l1,l2,iloraz,iloczyn;
 
 int main() {
     cout << "Podaj liczbe nr 1: ";
@@ -11,10 +12,16 @@ int main() {
     cout << "Podaj liczbe nr 2: ";
     cin >> l2;
     iloczyn = l1 * l2;
-    iloraz = l1 / (double)l2;
-    modulo = l1 % l2;
-    cout << "Iloczyn liczb wynosi: " << iloczyn << endl;
-    cout << "Iloraz liczb wynosi: " << iloraz << endl;
+    iloraz = l1 / l2;
+    modulo = (int)l1 % (int)l2;
+    cout << "Iloczyn liczb wynosi: ";
+    cout << fixed << showpoint;
+    cout << setprecision(10);
+    cout << iloczyn << endl;
+    cout << "Iloraz liczb wynosi: ";
+    cout << fixed << showpoint;
+    cout << setprecision(10);
+    cout << iloraz << endl;
     cout << "Reszta z dzielenia liczb wynosi: " << modulo << endl;
     return 0;
 }
