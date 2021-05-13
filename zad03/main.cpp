@@ -3,11 +3,15 @@
 
 using namespace std;
 
-long double metry,milimetry;
+double metry,milimetry;
 int main() {
     cout << "Podaj ilosc metrow: ";
     cin >> metry;
     milimetry = metry * 1000;
-    cout << "Ilosc milimetrow: " << setprecision(10) << fixed << showpoint << milimetry << endl;
+    cout << "Ilosc milimetrow: ";
+    cout << setprecision(10);
+    cout << fixed;
+    cout << showpoint;
+    cout << milimetry << endl;
     return 0;
 }
