@@ -1,0 +1,3 @@
+/home/kamil/GitHub/CPP/zad04/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kamil/GitHub/CPP/zad04/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kamil/GitHub/CPP/zad04/cmake-build-debug/CMakeFiles/zad04.dir
